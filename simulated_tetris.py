@@ -4,6 +4,8 @@ import random
 import pygame
 import math
 import copy
+import os
+os.environ.setdefault('SDL_VIDEODRIVER','dummy')
 from tetris import Tetris, load_sequence
 from smart_player import SmartPlayer
 
@@ -78,7 +80,7 @@ class SimulatedTetrisGA(Tetris):
         duration_minutes = (self.end_time - self.start_time) / 60.0
         avg_latency = (sum(self.decision_latencies) / len(self.decision_latencies)
                        if self.decision_latencies else 0)
-        apm = self.total_actions / duration_minutes if duration_minutes > 0 else 0
+        apm = self.total_actions / duration_minutes if duration_minutes > 0 else 0 / duration_minutes if duration_minutes > 0 else 0
         return {
             "total_lines_cleared": self.total_lines_cleared,
             "max_score": self.score,
