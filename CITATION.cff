@@ -5,7 +5,7 @@ authors:
   - family-names: Erkalkan
     given-names: Ercan
     orcid: "https://orcid.org/0000-0001-9259-7112"
-repository-code: "https://github.com/hatikuay/tetris"
+repository-code: "https://github.com/ercanerkalkan/tetris"
 license: "MIT"
 date-released: "2025-10-01"
 version: "1.0.0"
@@ -16,6 +16,10 @@ preferred-citation:
     - family-names: Erkalkan
       given-names: Ercan
       orcid: "https://orcid.org/0000-0001-9259-7112"
-  journal: "TJMCS (under review)"
-  year: 2025
-  doi: ""  # add when available
+  journal: "Turkish Journal of Mathematics and Computer Science"
+  year: 2026
+  volume: 18
+  issue: 1
+  start: 220
+  end: 247
+  doi: "https://doi.org/10.47000/tjmcs.1663275"
