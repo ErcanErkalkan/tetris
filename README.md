@@ -2,7 +2,7 @@
 
 This repository contains the reference implementation for the paper:
 
-> **E. Erkalkan**, *Heuristic Optimization of a Tetris Bot Using Genetic Algorithms: An Adaptive Evolutionary Approach*, TJMCS, 2025 (minor revision).
+> **Erkalkan, E.** (2026). Heuristic Optimization of a Tetris Bot Using Genetic Algorithms: An Adaptive Evolutionary Approach. Turkish Journal of Mathematics and Computer Science, 18(1), 220–247. https://doi.org/https://doi.org/10.47000/tjmcs.1663275
 
 ## Highlights
 - Offline GA to learn baseline heuristic weights for a Tetris-playing agent.
